@@ -1,0 +1,23 @@
+{
+  "name": "oled",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikitu/oled-examples.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikitu/oled-examples/issues"
+  },
+  "homepage": "https://github.com/mikitu/oled-examples#readme",
+  "dependencies": {
+    "i2c-bus": "^3.0.0",
+    "oled-font-5x7": "^1.0.1",
+    "oled-i2c-bus": "^1.0.10"
+  }
+}
