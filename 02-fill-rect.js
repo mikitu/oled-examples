@@ -20,4 +20,4 @@ var oled = new Oled(i2cBus, opts);
 oled.clearDisplay();
 oled.turnOnDisplay();
 
-oled.fillRect(1, 1, 10, 20, 1);
+oled.drawLine(1, 1, 128, 32, 1);
